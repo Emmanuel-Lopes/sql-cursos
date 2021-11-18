@@ -1,0 +1,12 @@
+select * from tbproduto where idade = 22;
+select * from tbproduto where idade < 22;
+select * from tbproduto where idade > 22;
+select * from tbproduto where idade <= 22;
+select * from tbproduto where idade <> 22;
+select * from tbproduto where nome > 'Fernando Cavalcante';
+select * from tbproduto where nome >= 'Fernando Cavalcante';
+select * from tbproduto where PRECO_LISTA > 16.008;
+select * from tbproduto where PRECO_LISTA < 16.008;
+select * from tbproduto where PRECO_LISTA <> 16.008;
+select * from tbproduto where PRECO_LISTA between 16.007 and 16.009;
+select * from tabela_de_vendedores where Percentual_comissao > 0.10;
